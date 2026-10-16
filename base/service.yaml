@@ -1,0 +1,12 @@
+apiVersion: apps/v1
+kind: Service
+metadata:
+  name: stock-portfolio-tracker
+  namespace: stock-portfolio
+spec:
+  selector:
+    app: stock-portfolio-tracker
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8501
