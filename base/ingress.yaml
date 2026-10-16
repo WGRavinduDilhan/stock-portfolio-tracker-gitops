@@ -14,4 +14,4 @@ spec:
               service:
                 name: stock-portfolio-tracker
                 port:
-                  number: 80
+                  number: 8501
