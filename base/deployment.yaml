@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: stock-portfolio-tracker
-          image: docker.io/ravindudilhan/stock-portfolio-tracker:1
+          image: ravindudilhan/stock-portfolio-tracker:5
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8501
