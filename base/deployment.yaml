@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: stock-portfolio-tracker
-          image: ravindudilhan/stock-portfolio-tracker:5
+          image: ravindudilhan/stock-portfolio-tracker:11
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8501
